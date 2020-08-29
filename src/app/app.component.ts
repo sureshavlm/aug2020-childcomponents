@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'child-components';
+
+  products: any = [
+  	{ name: 'Lenova Laptop', price: 60000},
+  	{ name: 'Dell Laptop', price: 65000},
+  	{ name: 'Macbook Pro', price: 120000},
+  	{ name: 'Sony Laptop', price: 90000}
+  	];
 }
